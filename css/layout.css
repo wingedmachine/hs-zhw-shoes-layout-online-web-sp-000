@@ -39,3 +39,10 @@
   margin-left: 0;
 }
 
+clearfix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  line-height: 0;
+  display: none;
+}
